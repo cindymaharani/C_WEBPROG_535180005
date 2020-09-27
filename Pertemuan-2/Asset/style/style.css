@@ -1,0 +1,42 @@
+p{
+    font-family: Arial;
+}
+
+h1, h2, h3{
+    font-family: Arial;
+    color: yellow;
+}
+
+.isiteks{
+    color: #99ccff;
+    font-size: 36px;
+}
+
+p.isiteks{
+    color: #FF0000;
+    font-size: 36px;
+}
+
+#footer{
+    color: blue;
+    border: 1px solid black;
+}
+
+/*div>p{
+    color: white;
+    background: green;
+    padding: 2px;
+}
+*/
+div h4{
+    font-size:26px;
+    text-align: center;
+}
+
+h5 + h6{
+    color: red;
+}
+
+div~p{
+    background-color: yellow;
+}
