@@ -1,0 +1,11 @@
+.tombol{
+    background-color: #E74C3C ;
+    }
+.tabel{
+    background-color:#2ECC71;
+    margin: 10px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    }
