@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Java Script Introduction</title>
+    <style>
+        .MakeRed {
+            color: red;
+        }
+
+        .Hide {
+            visibility: hidden;
+        }
+
+        .Show {
+            visibility: visible;
+        }
+    </style>
+    
+   <!-- <script>
+        function changeLine1Style() {
+            document.getElementById("cLine1").className = "MakeRed";
+        }
+        function ChangeStyle(id, classname){
+            document.getElementById(id).className = classname;
+        }
+    </script>-->
+    <!--<script src="script.js"></script>
+    <script>
+        function WriteLog(LogText) {
+            document.getElementById("cLine1").innerHTML = "Hello World";
+            console.log(LogText);
+        }
+    </script>-->
+    <script>
+        function ChangeAll(str){
+            document.getElementById("cLine1").innerHTML = str;
+            document.getElementById("cLine2").innerHTML = str;
+            document.getElementById("cLine1").className="MakeRed";
+            document.getElementById("cLine2").className="MakeRed";
+        }
+    </script>
+</head>
+
+<body>
+
+    <!--<button type="button" onclick='alert("Hello")'>Show Alert</button>
+
+    <button type="button" onclick='document.getElementById("cGreeting").innerHTML = "Hello World!"'>Go</button>
+    <p id="cGreeting">Change Content.</p>
+
+    <button type="button" onclick='document.getElementById("cStyle").style.fontWeight="800"'>Go</button>
+    <p id="cStyle">Change Style</p>
+
+    <button type="button" onclick='document.getElementById("cLine1").className="MakeRed"'>Go</button>
+    <p id="cLine1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet ultrices iaculis.</p>
+
+    <br />
+
+    <button type="button" onclick='document.getElementById("cLine2").className="Hide"'>Hide This</button>
+    <button type="button" onclick='document.getElementById("cLine2").className="Show"'>Show This</button>
+    <p id="cLine2">Maecenas eu velit accumsan, ullamcorper arcu sit amet, consectetur mi. Suspendisse a pulvinar augue,
+        vel sollicitudin nulla.</p>
+    <p>Mauris dapibus dapibus semper. Donec molestie quam eget lacus lobortis hendrerit. Quisque vel aliquam dui, vel
+        tempus libero.</p>
+
+    <button type="button" onclick='changeLine1Style()'>Go</button>
+    <p id="cLine1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet ultrices iaculis.</p>    
+    <br />
+    <button type="button" onclick='ChangeStyle("cLine2","Hide")'>Hide This</button>
+    <button type="button" onclick='ChangeStyle("cLine2","Show")'>Show This</button>
+    <p id="cLine2">Maecenas eu velit accumsan, ullamcorper arcu sit amet, consectetur mi. Suspendisse a pulvinar augue,
+        vel sollicitudin nulla.</p>
+    <p>Mauris dapibus dapibus semper. Donec molestie quam eget lacus lobortis hendrerit. Quisque vel aliquam dui, vel
+        tempus libero.</p>
+   <script>
+        function changeLine1Style() {
+            document.getElementById("cLine1").className = "MakeRed";
+        }
+        function ChangeStyle(id, classname){
+            document.getElementById(id).className = classname;
+        }
+    </script>-->
+    <!--<button type="button" onclick='WriteLog("Log this")'>Goo</button>
+    <p id="cLine1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet ultrices iaculis.</p>
+    -->
+    <p id="cLine1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet ultrices iaculis.</p>
+
+    <br>
+
+    <p id="cLine2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet ultrices iaculis.</p>
+
+    <br>
+
+    <button type="button" onclick='ChangeAll("Helo Hai")'>Change All</button>
+
+</body>
+
+</html>
