@@ -1,5 +1,5 @@
 # demo_example
-<a A Vue.js project>
+<a> A Vue.js project
 
 # Build Setup
 ```bash
